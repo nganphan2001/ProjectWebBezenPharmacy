@@ -1,1 +1,65 @@
-<p>header works!</p>
+<div class="header" id="header">
+    <!-- <div class="header__infor">
+        <span class="header__infor--iconClose">&times;</span>
+        <p class="header__infor--content">
+            MUA HÀNG TÍCH LŨY - NHẬN NGAY NHIỀU ƯU ĐÃI 
+            <br>
+            <span class="header__infor--time">Đăng ký thành viên ngay <a href="../login/login.component.html">tại đây!</a></span>
+        </p>
+    </div> -->
+    <div class="header__content">
+        <div class="header__content--logo">
+            <img src="assets/image/header/LogoBenzen.png">
+        </div>
+        <div class="header__content--list">
+            <div class="content__top">
+                <div class="content__top--menu">
+                    <nav>
+                        <ul>
+                          <li><a href="../home/home.component.html">Trang chủ</a></li>
+                          <li><a href="../infor/infor.component.html">Giới thiệu</a></li>
+                          <li><a href="../infor/infor.component.html">Thể lệ tích điểm</a></li>
+                          <li><a href="../infor/infor.component.html">Hỗ trợ</a></li>
+                        </ul>
+                      </nav>
+                    <!-- <a href="../home/home.component.html">Trang chủ</a>
+                    <a href="../infor/infor.component.html">Giới thiệu</a>
+                    <a href="../infor/infor.component.html">Thể lệ tích điểm</a>
+                    <a href="../infor/infor.component.html">Hỗ trợ</a> -->
+                </div> 
+                <div class="content__top--signIn" onclick="window.location='../login/login.component.html'">
+                    <span><b>1800 29YY</b> | Đăng nhập</span>
+                    <i class="bi bi-person-circle"></i>
+                </div>
+            </div>
+            <div class="content__bottom">
+                <div class="search">
+                    <i class="bi bi-search"></i>
+                    <input type="text" placeholder="  Search..." >
+                </div>
+                <div class="history" onclick="window.location='/Web/pages/lichsudonhang.html'">
+                    <i class="bi bi-file-earmark-text"></i>
+                    Lịch sử đơn hàng
+                </div>
+                <div class="cart" onclick="window.location='/Web/pages/gioHang.html'">
+                    <i class="bi bi-cart-fill"></i>
+                    Giỏ hàng
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="header__navbar">
+        <div onclick="window.location='./danhMucSanPham.html'">
+            <p>THUỐC <i class="bi bi-chevron-down"></i></p>
+        </div>
+        <div onclick="window.location='./danhMucSanPham.html'">
+            <p>THỰC PHẨM CHỨC NĂNG <i class="bi bi-chevron-down"></i></p>
+        </div>
+        <div onclick="window.location='./danhMucSanPham.html'">
+            <p>DƯỢC-MỸ PHẨM <i class="bi bi-chevron-down"></i></p>
+        </div>
+        <div onclick="window.location='./danhMucSanPham.html'">
+            <p>THIẾT BỊ Y TẾ <i class="bi bi-chevron-down"></i></p>
+        </div>
+    </div>
+</div>
