@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { AppRoutingModule } from './app-routing.module';
+import { AppRoutingModule, RoutingComponent } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
@@ -23,11 +23,12 @@ import { AdminProductManagementComponent } from './admin-product-management/admi
 import { AdminCaterogyManagementComponent } from './admin-caterogy-management/admin-caterogy-management.component';
 import { AdminCustonerManagementComponent } from './admin-custoner-management/admin-custoner-management.component';
 import { AdminOrderManagementComponent } from './admin-order-management/admin-order-management.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
   AppComponent,
-      AppComponent,
+    RoutingComponent,
     HeaderComponent,
     FooterComponent,
     LoginComponent,
@@ -52,7 +53,8 @@ import { AdminOrderManagementComponent } from './admin-order-management/admin-or
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
