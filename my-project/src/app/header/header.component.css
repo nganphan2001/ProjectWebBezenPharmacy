@@ -183,7 +183,7 @@ border-radius: 10px;
 .bi .bi-file-earmark-text{
 
 }
-.content__bottom--button .text{
+.history .text{
     width: 65px;
 height: 36px;
 
@@ -213,6 +213,22 @@ bottom: 43px;
 border: 1px solid rgba(0, 0, 0, 0.2);
 border-radius: 10px;
 }
+.cart .text{
+    width: 58px;
+height: 18px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 18px;
+
+
+letter-spacing: -0.02em;
+
+color: #000000;
+}
+
 .header__navbar{
     background-color: #2D982A;
     display: flex;
