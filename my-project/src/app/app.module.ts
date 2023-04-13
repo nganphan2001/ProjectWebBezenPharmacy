@@ -14,15 +14,10 @@ import { InforComponent } from './infor/infor.component';
 import { HomeComponent } from './home/home.component';
 import { CategoryComponent } from './category/category.component';
 import { ProductdetailComponent } from './productdetail/productdetail.component';
-import { AdminMessengerComponent } from './admin-messenger/admin-messenger.component';
 import { ShoppingcartComponent } from './shoppingcart/shoppingcart.component';
 import { PaymentComponent } from './payment/payment.component';
 import { PaymentMomoComponent } from './payment-momo/payment-momo.component';
 import { PaymentBankingComponent } from './payment-banking/payment-banking.component';
-import { AdminProductManagementComponent } from './admin-product-management/admin-product-management.component';
-import { AdminCaterogyManagementComponent } from './admin-caterogy-management/admin-caterogy-management.component';
-import { AdminCustonerManagementComponent } from './admin-custoner-management/admin-custoner-management.component';
-import { AdminOrderManagementComponent } from './admin-order-management/admin-order-management.component';
 import { FormsModule } from '@angular/forms';
 
 @NgModule({
@@ -41,15 +36,10 @@ import { FormsModule } from '@angular/forms';
     HomeComponent,
     CategoryComponent,
     ProductdetailComponent,
-    AdminMessengerComponent,
     ShoppingcartComponent,
     PaymentComponent,
     PaymentMomoComponent,
     PaymentBankingComponent,
-    AdminProductManagementComponent,
-    AdminCaterogyManagementComponent,
-    AdminCustonerManagementComponent,
-    AdminOrderManagementComponent
   ],
   imports: [
     BrowserModule,
