@@ -19,6 +19,13 @@ import { PaymentComponent } from './payment/payment.component';
 import { PaymentMomoComponent } from './payment-momo/payment-momo.component';
 import { PaymentBankingComponent } from './payment-banking/payment-banking.component';
 import { FormsModule } from '@angular/forms';
+import { InstructionComponent } from './infor/instruction/instruction.component';
+import { PolicydeliveryComponent } from './infor/policydelivery/policydelivery.component';
+import { PolicypaymentComponent } from './infor/policypayment/policypayment.component';
+import { PolicywarrantyComponent } from './infor/policywarranty/policywarranty.component';
+import { PolicysecurityComponent } from './infor/policysecurity/policysecurity.component';
+import { MemberpointComponent } from './infor/memberpoint/memberpoint.component';
+
 
 @NgModule({
   declarations: [
@@ -40,6 +47,12 @@ import { FormsModule } from '@angular/forms';
     PaymentComponent,
     PaymentMomoComponent,
     PaymentBankingComponent,
+    InstructionComponent,
+    PolicydeliveryComponent,
+    PolicypaymentComponent,
+    PolicywarrantyComponent,
+    PolicysecurityComponent,
+    MemberpointComponent,
   ],
   imports: [
     BrowserModule,
